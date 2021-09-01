@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: black;
+}
+
+.glow {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow:
+                 0 0 20px #00fed0,
+                 0 0 30px #0fed00,
+                 0 0 40px #fed000,
+                 0 0 50px #ed000f,
+                 0 0 60px #d000fe,
+                 0 0 70px #000fed,
+                 0 0 80px #00fed0;
+  }
+
+  to {
+    text-shadow:
+                 0 0 10px #6e696b,
+                 0 0 20px #0a6f67,
+                 0 0 30px #6f0a6e,
+                 0 0 40px #7a610a,
+                 0 0 50px #6c6573,
+                 0 0 60px #0a7761,
+                 0 0 70px #730a68,
+                 0 0 80px #657265;
+  }
+}
+</style>
+</head>
+<body>
+<div class="glow">
+<pre>
+o       o
+ \_____/ 
+ /=O=O=\     _______ 
+/   ^   \   /\\\\\\\\
+\ \___/ /  /\   ___  \
+ \_ V _/  /\   /\\\\  \
+   \  \__/\   /\ @_/  /
+    \____\____\______/
+</pre>
+</div>
+</body>
+</html>
